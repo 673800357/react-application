@@ -1,0 +1,179 @@
+html
+{
+  font-size: 125%;//20px
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  &:hover {text-decoration: none;}
+}
+li, ol, ul {
+  list-style: none;
+}
+.activer
+{
+  color: #f85f48!important;
+}
+//快问主页样式
+body
+{
+  height: 100%;
+  color: #3f3f3f;
+  position: relative;
+  background: #f5f5f5;
+  .app {
+    max-width: 768px;
+    margin: 0 auto;
+    /*每个分类标签的样式*/
+      .tag {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 1.1rem .75rem 1.1rem 3.2rem;
+      width: 100%;
+      box-sizing: border-box;
+      background: #fff;
+      a {
+        display: block;
+        text-align: left;
+        font-size: .7rem;
+        color: #999;
+        .icon {
+          position: absolute;
+          top: 50%;
+          left: .75rem;
+          margin-top: -1.5rem;
+          height: 1.8rem;
+        }
+        .tag-title {
+          margin-bottom: .45rem;
+          font-size: .85rem;
+          color: #3f3f3f;
+        }
+
+      }
+      .btn-ask {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        right: .75rem;
+        margin-top: -.7rem;
+        border-radius: 1.4rem;
+        border: 1px solid;
+        width: 2.75rem;
+        text-align: center;
+        line-height: 1.4rem;
+        color: #f85f48;
+        font-size: .65rem;
+      }
+    }
+    /*标签页样式结束*/
+
+    /*问题列表样式开始*/
+
+      .rewards {
+        margin-top: .5rem;
+        margin-bottom: 4rem;
+        .head {
+          border-bottom: 1px solid #e5e5e5;
+          padding-top: .5rem;
+          background: #fff;
+          a .current {
+            color: #3f3f3f;
+          }
+        }
+        .rewards-list{
+          .reward
+          {
+            overflow: hidden;
+            background: #fff;
+            margin-bottom: .5rem;
+            .reward-header
+            {
+              overflow: hidden;
+              margin-bottom: .45rem;
+              padding: .75rem;
+              padding-bottom: 0;
+              .user{
+                float: left;
+              }
+              .money{
+                display: inline-block;
+                vertical-align: middle;
+                font-size: .8rem;
+                color: #f85f48;
+                height: 1.25rem;
+                line-height: 1.25rem;
+                float: right;
+              }
+            }
+            .reward-body
+            {
+              padding: 0 .75rem;
+              font-size: .8rem;
+              color: #3f3f3f;
+              line-height: 1.1rem;
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+            .status
+            {
+              padding: .75rem ;
+              color: #999;
+              font-size: .65rem;
+              line-height: 1.15rem;
+              height: 1.15rem;
+            }
+            .reward-footer
+            {
+              padding: .5rem .75rem .6rem;
+              overflow: hidden;
+            }
+            .reward-tip
+            {
+
+              padding: -.25rem;
+              height: 2.25rem;
+              line-height: 2.25rem;
+              color: #999;
+              font-size: .65rem;
+            }
+          }
+
+        }
+      }
+      /*问题列表样式结束*/
+
+  }
+}
+.footer
+{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 2.45rem;
+  background: #fff;
+  z-index: 1000;
+  border-top: 1px solid #e5e5e5;
+  .mains {
+    display: flex;
+    max-width: 768px;
+    margin: 0 auto;
+    .fb-item {
+      display: inline-block;
+      line-height: 2.45rem;
+      font-size: .75rem;
+      color: #999;
+      text-align: center;
+      text-decoration: none;
+      position: relative;
+      flex: 1;
+    }
+  }
+}

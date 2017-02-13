@@ -1,0 +1,63 @@
+[
+  {
+    "title": "精彩合辑",
+    "people": [
+      {
+        "nickname": "邢立达",
+        "title": "恐龙这个物种还可能复活吗？",
+        "src":"f1"
+      },
+      {
+        "nickname": "张桂莉",
+        "title": "如何培养孩子的专注力？",
+        "src":"f2"
+      },
+      {
+        "nickname": "皮肤科医生林小清",
+        "title": "林医生皮肤健康杂货铺",
+        "src":"f3"
+      }
+    ],"more":null
+  },
+  {
+    "title": "热推名人",
+    "people": [
+      {
+        "nickname": "海阳",
+        "title": "脱口秀主播，喜剧研究者",
+        "src":"f4"
+      },
+      {
+        "nickname": "贾立平",
+        "title": "《最强大脑》第一季选手",
+        "src":"f5"
+      },
+      {
+        "nickname": "陈冉冉",
+        "title": "《最强大脑》心算选手",
+        "src":"f6"
+      }
+    ],"more":null
+  }
+,
+  {
+    "title": "新晋榜",
+    "people": [
+      {
+        "nickname": "曼德拉的儿媳妇儿",
+        "title": "第三军医大学医学影像在读博士",
+        "src":"f7"
+      },
+      {
+        "nickname": "贾立平",
+        "title": "《最强大脑》第一季选手",
+        "src":"f8"
+      },
+      {
+        "nickname": "陈冉冉",
+        "title": "《最强大脑》心算选手",
+        "src":"f9"
+      }
+    ],"more":"查看更多新晋答主"
+  }
+]

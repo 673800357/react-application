@@ -1,0 +1,132 @@
+html
+{
+  font-size: 125%;//20px
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+  &:hover {text-decoration: none;}
+}
+body
+{
+  height: 100%;
+  color: #3f3f3f;
+  position: relative;
+  background: #f5f5f5;
+
+ /* detail开始*/
+@at-root {
+  .detail {
+  padding: .7rem .75rem 1.5rem;
+  background: #fff;
+    .link
+    {
+      display: block;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0 .75rem;
+      line-height: 2.4rem;
+      font-size: .7rem;
+      color: #3f3f3f;
+      background: #fff;
+    }
+  .asker {
+    display: block;
+    line-height: 1.25rem;
+    font-size: .65rem;
+    color: #999;
+  }
+  .question {
+    line-height: 1.58;
+  }
+  .woyelaida
+  {
+    position: relative;
+    padding-top: .75rem;
+    text-align: center;
+    .btn
+  {
+      display: inline-block;
+      border: 1px solid;
+      border-radius: .9rem;
+      padding: 0 1.25rem;
+      line-height: 1.75rem;
+      color: #f85f48;
+      font-size: .8rem;
+  }
+  }
+}
+      }
+/*  detail end*/
+  .count
+  {
+    display: inline-block;
+    font-size: .65rem;
+    color: #999;
+  }
+
+  .sort-item
+  {
+    float: right;
+    .item
+  {
+    line-height: 1.75rem;
+    display: inline-block;
+    margin: 0 .4rem;
+    color: #999;
+  }
+  }
+  .question-list
+  {
+    margin-bottom: 4rem;
+    .answer
+    {
+      background: #fff;
+      padding: .85rem .75rem;
+      border-bottom: 1px solid #e5e5e5;
+      .answer-head
+      {
+        .user
+        {
+          margin: .2rem 0 .4rem;
+          color: #999;
+          font-size: .65rem;
+        }
+      }
+      .answer-content
+      {
+
+        .content
+        {
+          font: inherit;
+          line-height: 1.4;
+          color: #3d464d;
+          font-size: .75rem;
+          overflow: hidden;
+          white-space: pre-wrap;
+          word-wrap: break-word;
+          box-sizing: border-box;
+        }
+      }
+      .answer-footer
+      {
+        overflow: hidden;
+        margin-top: .5rem;
+        font-size: .65rem;
+        color: #999;
+        .count
+        {
+          float: right;
+          margin-left: .8rem;
+          line-height: 1.1rem;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,166 @@
+html
+{
+  font-size: 125%;//20px
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  &:hover {text-decoration: none;}
+}
+li, ol, ul {
+  list-style: none;}
+
+body
+{
+  height: 100%;
+  color: #3f3f3f;
+  position: relative;
+  background: #f5f5f5;
+
+  .app {
+    max-width: 768px;
+    margin: 0 auto;
+    //顶部开始
+    .section {
+      padding: .75rem;
+      background: #fff;
+      .header {
+        margin-bottom: .5rem;
+        overflow: hidden;
+        .info //头像
+        {
+          display: block;
+          float: left;
+          .img-block {
+            position: relative;
+            width: 1.25rem;
+            height: 1.25rem;
+            border-radius: 50%;
+            display: inline-block;
+            vertical-align: middle;
+            .img {
+              position: relative;
+              width: 1.25rem;
+              height: 1.25rem;
+              border-radius: 50%;
+              display: inline-block;
+            }
+          }
+          .title {
+            display: inline-block;
+            vertical-align: middle;
+            color: #999;
+            font-size: .65rem;
+            margin-left: .3rem;
+            max-width: 11rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        .money {
+          font-size: .75rem;
+          color: #f85f48;
+          float: right;
+          height: 1.25rem;
+          line-height: 1.25rem;
+        }
+      }
+      .content {
+        font-size: .8rem;
+        color: #3f3f3f;
+        line-height: 1.1rem;
+        margin-bottom: .7rem;
+
+      }
+      .reply
+      {
+        margin: .8rem 0 .6rem;
+        text-align: center;
+        .reason{
+          color: #999;
+          font-size: .65rem;
+          margin-top: .5rem;
+        }
+      }
+      .footer
+      {
+        margin-top: .75rem;
+        font-size: .65rem;
+        line-height: 1.4;
+        color: #999;
+        text-align: center;
+
+      }
+    }
+    //顶部结束
+
+    //回答列表开始
+    .reply-list{
+      margin-bottom: 4rem;
+        .reply{
+          background: #fff;
+          padding: .85rem .75rem;
+          border-bottom: 1px solid #e5e5e5;
+          .reply-header
+          {
+            overflow: hidden;
+            .user
+            {
+              margin: .2rem 0 .4rem;
+              color: #999;
+              font-size: .65rem;
+            }
+          }
+          .reply-content
+          {
+              .test{
+                width:9.25rem; padding:1.25rem 2.15rem; margin-left:3rem; background:#28aef5; position:relative;border-radius: .7rem;color: white;cursor: pointer;
+                span
+                {
+                  width:0; height:0; font-size:0; overflow:hidden; position:absolute;
+                }
+                .bot
+                {
+                  border-width:1rem;
+                  border-style:solid;
+                  border-color:#ffffff #28aef5 #28aef5 #ffffff;
+                  left:-2rem;
+                  top:2rem;
+                }
+                .top{
+                  border-width:.5rem 1rem;
+                  border-style:dashed solid solid dashed;
+                  border-color:transparent #ffffff #ffffff transparent;
+                  left: -2rem;
+                  top: 3rem;
+                }
+
+              }
+          }
+          .reply-footer
+          {
+            overflow: hidden;
+            margin-top: .5rem;
+            font-size: .65rem;
+            color: #999;
+            .time{
+              line-height: 1.1rem;
+              vertical-align: middle;
+            }
+            .count
+            {
+              float: right;
+              margin-left: .8rem;
+              line-height: 1.1rem;
+            }
+          }
+        }
+    }
+    //回答列表极速
+  }
+}

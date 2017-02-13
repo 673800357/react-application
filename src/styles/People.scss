@@ -1,0 +1,140 @@
+//找人页面
+
+.main
+{
+  margin-bottom: 3rem!important;
+  .search
+  {
+    box-sizing: border-box;
+    height: 2.7rem;
+    text-align: center;
+    padding-top: .6rem;
+    background: #fff;
+    .box
+    {
+      background: #fafafa;
+      width: 14rem;
+      height: 1.5rem;
+      line-height: 1.6rem;
+      border-radius: .75rem;
+      border: 1px solid #e5e5e5;
+      font-size: .65rem;
+      color: #999;
+      display: inline-block;
+    }
+  }
+  .item-nav
+  {
+    overflow: hidden;
+    margin: .5rem 0;
+    li{
+      background: #fff;
+      box-sizing: border-box;
+      float: left;
+      height: 4.8rem;
+      width: 32%;
+      text-align: center;
+      font-size: .65rem;
+      background-size: 1.85rem 1.85rem;
+      background-position: center top .9rem;
+      background-repeat: no-repeat;
+      color: #3f3f3f;
+      margin: 0 1%;
+    };
+  }
+
+  .sub-nav
+  {
+    overflow: hidden;
+    margin: 0 -1px .5rem 0;
+    width: 100%;
+    li{
+      background: #fff;
+      float: left;
+      height: 2.25rem;
+      width: 25%;
+      text-align: center;
+      font-size: .75rem;
+      color: #3f3f3f;
+      line-height: 2.25rem;
+      border-right: 1px solid #f5f5f5;
+      border-bottom: 1px solid #f5f5f5;
+      cursor: pointer;
+    }
+  }
+  .title
+  {
+    height: 2.25rem!important;
+    line-height: 0.25rem!important;
+    color: #999;
+    font-size: .7rem;
+    text-align: center;
+    padding: 0;
+  }
+  .album
+  {
+    background: #fff;
+    margin-bottom: .5rem;
+
+    li{
+      position: relative;
+      box-sizing: border-box;
+      height: 4.15rem;
+      border-top: 1px solid #e5e5e5;
+      padding: 1rem 2.75rem 0 4.15rem;
+      img
+      {
+        position: absolute;
+        width: 2.65rem;
+        height: 2.65rem;
+        border-radius: 50%;
+        display: inline-block;    top: .555rem;
+        left: .75rem;
+      };
+      .desc
+      {
+        font-size: .65rem;
+        line-height: .9rem;
+        color: #999;
+      }
+      .follow
+      {
+        position: absolute;
+        top: 1.025rem;
+        right: .75rem;
+        color: #f85f48;
+        font-size: .65rem;
+        text-align: right;
+        padding-top: 1.08rem;
+        cursor: pointer;
+      }
+      .followed
+      {
+        position: absolute;
+        top: 1.025rem;
+        right: .75rem;
+        line-height: 3.36rem;
+        color: #999;
+        font-size: .65rem;
+        cursor: pointer;
+      }
+      .btn-follow
+      {
+        width: .7rem;
+        height: .7rem;
+        display: block;
+        margin: 0 0 .25rem -.5rem;
+      }
+
+    };
+  }
+}
+.morer
+{
+  height: 2rem!important;
+  line-height: 0.1rem!important;
+  font-size: .7rem;
+  padding: 0 0 0 .75rem;
+  text-align: center;    color: #f85f48;
+  cursor: pointer;
+}
