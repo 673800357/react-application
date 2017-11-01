@@ -1,4 +1,6 @@
 > A small demo spa page has used react 15 ,react-router 3 , redux and mock data without back-end code.
+
+[中文](/README.CN.md)
 #### Install
 ```shell
 npm install

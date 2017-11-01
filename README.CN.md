@@ -1,40 +1,39 @@
-> A small demo spa page has used react 15 ,react-router 3 , redux and mock data without back-end code.
+> 一个使用了react 15 + react-router 3 + redux的小型仿站spa页面，采用了mock数据，并无后台。
 
-[中文](/README.CN.md)
-#### Install
+#### 安装
 ```shell
 npm install
 ```
 
-#### Development environment
+#### 开发环境
 localhost:8000
 ```shell
 npm start
 ```
 
-#### Package
+#### 打包
 ```
 npm run build
 ```
 
-####  Directory structure
+#### 目录结构
 
-- src/ Main code
+- src/ 主要代码
     - actions/
-    - containers/ Component part
-    - components/ Route page
-    - data/ mock data
-    - data0/ mock data
-    - data1/ mock data
+    - containers/ 组件部分
+    - components/ 路由页面
+    - data/ mock数据
+    - data0/ mock数据
+    - data1/ mock数据
     - reducers/ 
-    - images/ images
+    - images/ 图片
     - stores/ 
-    - styles/ css files
-    - index.js Entry file
-    - config/ webpack配 config
+    - styles/ 样式文件
+    - index.js 入口文件
+    - config/ webpack配置
 
-#### Project scaffold
-> yo's react-webpack scaffold
+#### 项目脚手架
+> 使用的是yo上的react-webpack脚手架
 
-#### Instruction
-This is a project that when i first learn about react,which deepened my understanding of the react. At that time,i was unfamiliar with redux so the redux part has some problems.The program's level is also limited. But i think it is also a good introduction demo.
+#### 说明
+这是自己初学React时练手的一个小型仿站，加深了自己对react全家桶的api了解，redux部分当时了解不深写得有点问题，水平也有限，不喜勿喷。
